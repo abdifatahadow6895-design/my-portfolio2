@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      (function () {
+        var theme = localStorage.getItem("theme") || "dark";
+        if (theme === "dark") document.documentElement.classList.add("dark");
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Abdifatah Hussein Bashir is a software developer crafting premium web experiences with React, TypeScript, Node.js, and modern design systems."
+    />
+    <meta
+      name="keywords"
+      content="software developer, full stack developer, React developer, TypeScript, Node.js, portfolio"
+    />
+    <meta name="theme-color" content="#020617" />
+    <meta property="og:title" content="Abdifatah Hussein Bashir | Software Developer" />
+    <meta
+      property="og:description"
+      content="Explore a premium portfolio featuring product engineering work, thoughtful UI systems, and modern web development."
+    />
+    <meta property="og:type" content="website" />
+    <title>Abdifatah Hussein Bashir | Software Developer</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
